@@ -1,19 +1,28 @@
 import CartWidget from "./CartWidget"
-import logo from "../../assets/logo.jpg"
+import { Link } from "react-router-dom";
+import { PiPlantDuotone } from "react-icons/pi";
 import "./navbar.scss"
 
 const NavBar = () => {
   return (
     <nav className="navbar" >
-        <div className="brand" >
-            <img src={logo} alt="" width={40} />
-        </div>
 
+      <Link to="/"className="brand" >
+        <PiPlantDuotone  className="icono" />
+        <p className="tituloBrand">Vivero Vida Verde</p>
+        </Link>
         <ul className="categories">
-            <li>Macetas</li>
-            <li>Plantas para exterior</li>
-            <li>Plantas para interior</li>
+            <li > 
+              <Link to="/categoria/macetas" className="titulosCategorias">Macetas</Link>
+            </li>
+            <li >
+              <Link to="/categoria/plantas para exterior" className="titulosCategorias">Plantas para exterior</Link>
+            </li>
+            <li >
+            <Link to="/categoria/plantas para interior" className="titulosCategorias">Plantas para interior</Link>
+            </li>
         </ul>
+        
         <CartWidget/>
     </nav>
   )

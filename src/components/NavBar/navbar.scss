@@ -1,13 +1,56 @@
 .navbar{
+    width: 100%;
+    height: 80px;
     display: flex;
     justify-content:space-around;
-
+    background-color: rgba(8, 8, 8, 0.771);
+    .brand{
+        display: flex;
+        margin: 20px;
+        padding: 10px;
+        font-size: 20px;
+        text-decoration: none;
+        
+        .icono{
+            color: green;
+            font-size: 40px;
+        }
+        .tituloBrand{
+            color: green;
+            
+        }
+          
+    }
     .categories{
         display: flex;
         list-style: none;
-        justify-content: space-between;
+        li {
+            display: inline-block;
+            margin: 30px;
+            padding: 5px;
+             
+            .titulosCategorias{
+                color: green;
+                list-style: none;
+                text-decoration: none;
+                
+                &:hover{
+                transform: scale(1.1,1.1);
+                border-radius: 70px;
+                color: green;
+                background-color: yellow;
+                }      
+            }
+        }
     }
+      
+    
     .cartWidget{
         display: flex;
+        margin: 20px;
+        padding: 10px;
+            &:hover{
+                transform: scale(1.1,1.1);
+            }
     }
 }

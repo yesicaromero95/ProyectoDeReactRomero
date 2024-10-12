@@ -1,0 +1,49 @@
+.itemListContainer{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    .itemList{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        }
+    .item{
+        display: flex;
+        border: 2px solid rgb(137, 137, 137);
+        flex-direction: column; 
+        width: 300px;
+        padding: 1%;
+        align-items: center;
+        text-align: center;
+        margin: 3% 6%;
+        justify-content: center;
+        border-radius: 5px;
+        background-color: black;
+        &:hover{
+                transform: scale(1.1,1.1);
+            }
+        img{
+            width: 100%;
+            border-radius: 1%;
+            background-color: rgb(39, 39, 39);
+            
+        }
+        .pieDeFoto{
+            padding: 1% 0;
+        }
+        .verDetalle{
+            color: green;
+            width: 60%;
+            margin: 10px 0 0 0;
+            padding: 10px;
+            background-color: rgb(19, 19, 19);
+            border-radius: 5px;
+            border: 2px solid #176b3a;
+            text-decoration: none;
+            &:hover{
+                border: 2px solid yellow;
+            }
+        }
+    }
+
+}

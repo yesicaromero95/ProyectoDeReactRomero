@@ -1,0 +1,25 @@
+.contador{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    button{
+        color: green;
+        margin: 5px;
+        padding: 5px;
+        background-color: rgb(19, 19, 19);
+        border-radius: 5px;
+        border: 2px solid #176b3a;
+        font-size: 20px;
+        &:hover{
+            border: 2px solid yellow;
+        }
+    }
+    p{
+        border-radius: 5px;
+        border: 2px solid #176b3a; 
+        color: green; 
+        background-color: rgb(19, 19, 19);
+        
+        
+    }
+}
