@@ -1,8 +1,9 @@
-.contador{
+.contador {
     display: flex;
     flex-wrap: wrap;
     font-size: 20px;
-    button{
+
+    button {
         color: green;
         margin: 5px;
         padding: 5px;
@@ -10,16 +11,13 @@
         border-radius: 5px;
         border: 2px solid #176b3a;
         font-size: 20px;
-        &:hover{
+
+        &:hover {
             border: 2px solid yellow;
         }
     }
-    p{
-        border-radius: 5px;
-        border: 2px solid #176b3a; 
-        color: green; 
-        background-color: rgb(19, 19, 19);
-        
-        
+
+    p {
+        color: green;
     }
 }

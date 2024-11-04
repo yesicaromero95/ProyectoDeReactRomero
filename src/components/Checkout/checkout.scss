@@ -1,0 +1,76 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 60px;
+    
+
+    .itemForm {
+        font-size: 20px;
+        padding: 10px;
+        flex-direction: column;
+        display: flex;
+        
+        width: 20%;
+        justify-content: center;
+        text-align: center;
+
+        .label {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        input {
+            font-size: 25px;
+            border-radius: 5px;
+            padding: 0 5px;
+        }
+    }
+
+    .botonOrden {
+        color: green;
+        width: 20%;
+        margin: 30px;
+        padding: 5px;
+        background-color: rgb(19, 19, 19);
+        border-radius: 5px;
+        border: 2px solid #176b3a;
+        text-decoration: none;
+
+        &:hover {
+            border: 2px solid yellow;
+        }
+
+    }
+}
+
+.checkout {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    padding: 60px;
+
+    h2 {
+        padding: 30px;
+    }
+
+    p {
+        padding: 30px;
+    }
+
+    .volverInicio {
+        color: green;
+        margin: 15px;
+        padding: 10px;
+        background-color: rgb(19, 19, 19);
+        border-radius: 5px;
+        border: 2px solid #176b3a;
+        text-decoration: none;
+
+        &:hover {
+            border: 2px solid yellow;
+        }
+    }
+}

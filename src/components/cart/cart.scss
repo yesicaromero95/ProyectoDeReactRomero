@@ -1,0 +1,147 @@
+.aviso {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    h2 {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        padding: 100px;
+    }
+
+    .volverInicio {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        text-align: center;
+        color: green;
+        font-size: 15px;
+    }
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    height: 50px;
+
+    .titulo {
+        align-items: center;
+        padding: 45px;
+        justify-content: center;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .listaProductos {
+        justify-content: space-around;
+        display: flex;
+        padding: 30px;
+        margin: 10px;
+        background-color: rgb(58, 59, 58);
+        border-radius: 5px;
+
+        img {
+            width: 13%;
+            border-radius: 15px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        .nombreProducto {
+            font-size: 20px;
+            color: white;
+            padding: 5px;
+            margin: 30px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: rgba(35, 34, 34, 0.707);
+        }
+
+        p {
+            font-size: 20px;
+            color: white;
+            padding: 5px;
+            margin: 30px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: rgba(35, 34, 34, 0.707);
+            height: 40px;
+        }
+
+        button {
+            color: rgb(254, 36, 36);
+            text-align: center;
+            padding: 5px;
+            background-color: rgb(19, 19, 19);
+            border-radius: 10px;
+            border: 2px solid rgb(254, 36, 36);
+            text-decoration: none;
+            height: 40px;
+
+            &:hover {
+                border: 2px solid rgb(186, 186, 184);
+            }
+
+        }
+    }
+
+    .precioTotal {
+        display: flex;
+        flex-direction: column;
+
+        p {
+            font-size: 20px;
+            color: white;
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+            border-radius: 5px;
+            background-color: rgba(35, 34, 34, 0.707);
+            height: 40px;
+            width: 15%;
+        }
+
+        .linkCompra {
+            color: green;
+            text-align: center;
+            justify-content: center;
+            background-color: rgb(19, 19, 19);
+            border-radius: 10px;
+            border: 2px solid #176b3a;
+            text-decoration: none;
+            height: 40px;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            font-size: 15px;
+            width: 15%;
+
+            &:hover {
+                border: 2px solid yellow;
+            }
+        }
+        button{
+            color: rgb(254, 36, 36);
+            text-align: center;
+            padding: 10px;
+            background-color: rgb(19, 19, 19);
+            border-radius: 10px;
+            border: 2px solid rgb(254, 36, 36);
+            text-decoration: none;
+            height: 40px;
+            font-size: 15px;
+            justify-content: center;
+            display: flex;
+            margin: 10px;
+            width: 15%;
+
+            &:hover {
+                border: 2px solid rgb(186, 186, 184);
+            }
+        }
+    }
+}

@@ -1,10 +1,11 @@
-.itemDetail{
+.itemDetail {
     display: flex;
     width: 100%;
     min-height: 90vh;
     padding: 100px 0;
     margin: 20px;
-    img{
+
+    img {
         display: flex;
         width: 25%;
         align-items: center;
@@ -12,20 +13,38 @@
         border-radius: 5px;
         flex-direction: column;
     }
-    .detalleDeFoto{
+
+    .detalleDeFoto {
         width: 50%;
         display: flex;
         flex-direction: column;
         padding: 0 10px;
-        h2{
+
+        h2 {
             padding: 10px 0;
             font-size: 3rem;
         }
-        p{
+
+        p {
             font-style: italic;
             padding: 10px 0;
             font-size: 1.3rem;
             color: rgb(218, 218, 218);
+        }
+        .linkProductos{
+            color: green;
+            width: 20%;
+            margin: 30px;
+            padding: 5px;
+            background-color: rgb(19, 19, 19);
+            border-radius: 5px;
+            border: 2px solid #176b3a;
+            text-decoration: none;
+
+            &:hover {
+                border: 2px solid yellow;
+            }
+        
         }
     }
 }

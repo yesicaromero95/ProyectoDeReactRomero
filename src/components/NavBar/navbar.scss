@@ -1,56 +1,61 @@
-.navbar{
+.navbar {
     width: 100%;
     height: 80px;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     background-color: rgba(8, 8, 8, 0.771);
-    .brand{
+
+    .brand {
         display: flex;
         margin: 20px;
         padding: 10px;
         font-size: 20px;
         text-decoration: none;
-        
-        .icono{
+
+        .icono {
             color: green;
             font-size: 40px;
         }
-        .tituloBrand{
+
+        .tituloBrand {
             color: green;
-            
+
         }
-          
+
     }
-    .categories{
+
+    .categories {
         display: flex;
         list-style: none;
+
         li {
             display: inline-block;
             margin: 30px;
             padding: 5px;
-             
-            .titulosCategorias{
+
+            .titulosCategorias {
                 color: green;
                 list-style: none;
                 text-decoration: none;
-                
-                &:hover{
-                transform: scale(1.1,1.1);
-                border-radius: 70px;
-                color: green;
-                background-color: yellow;
-                }      
+
+                &:hover {
+                    transform: scale(1.1, 1.1);
+                    border-radius: 70px;
+                    color: green;
+                    background-color: yellow;
+                }
             }
         }
     }
-      
-    
-    .cartWidget{
+
+
+    .cartWidget {
         display: flex;
         margin: 20px;
         padding: 10px;
-            &:hover{
-                transform: scale(1.1,1.1);
-            }
+
+        &:hover {
+            transform: scale(1.1, 1.1);
+        }
     }
 }

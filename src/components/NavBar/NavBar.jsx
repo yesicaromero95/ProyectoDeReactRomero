@@ -7,23 +7,23 @@ const NavBar = () => {
   return (
     <nav className="navbar" >
 
-      <Link to="/"className="brand" >
-        <PiPlantDuotone  className="icono" />
+      <Link to="/" className="brand" >
+        <PiPlantDuotone className="icono" />
         <p className="tituloBrand">Vivero Vida Verde</p>
-        </Link>
-        <ul className="categories">
-            <li > 
-              <Link to="/categoria/macetas" className="titulosCategorias">Macetas</Link>
-            </li>
-            <li >
-              <Link to="/categoria/plantas para exterior" className="titulosCategorias">Plantas para exterior</Link>
-            </li>
-            <li >
-            <Link to="/categoria/plantas para interior" className="titulosCategorias">Plantas para interior</Link>
-            </li>
-        </ul>
-        
-        <CartWidget/>
+      </Link>
+      <ul className="categories">
+        <li >
+          <Link to="/categoria/macetas" className="titulosCategorias">Macetas</Link>
+        </li>
+        <li >
+          <Link to="/categoria/plantas para exterior" className="titulosCategorias">Plantas para exterior</Link>
+        </li>
+        <li >
+          <Link to="/categoria/plantas para interior" className="titulosCategorias">Plantas para interior</Link>
+        </li>
+      </ul>
+
+      <CartWidget />
     </nav>
   )
 }
